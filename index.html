@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/767fafc7b6.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Phono - Headphones of the future</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
     <section class="section-a">
         <div class="container">
             <div>
-                <h1>The Headphones of the future</h1>
+                <h1 id="test">The Headphones of the future</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ab recusandae odit amet! Nobis doloribus quia blanditiis, 
                     consequuntur voluptatem nemo quod rerum voluptates amet facere nulla, sit inventore iusto qui.
                 </p>
@@ -53,14 +54,40 @@
     </section>
     <!-- End overlay text -->
 
+    
+    <!-- Gallery -->
+    <section class="section-c">
+        <div class="gallery">
+            <a href="img/download.png" class="big"><img src="img/download.png" alt=""/></a>
+            <a href="img/showcase.jfif" class="big"><img src="img/showcase.jfif" alt=""/></a>
+            <a href="img/download.png" class="big"><img src="img/download.png" alt=""/></a>
+            <a href="img/showcase.jfif" class="big"><img src="img/showcase.jfif" alt=""/></a>
+            <a href="img/download.png" class="big"><img src="img/download.png" alt=""/></a>
+            <a href="img/showcase.jfif" class="big"><img src="img/showcase.jfif" alt=""/></a>
+        </div>
+    </section>
+    <!-- End Gallery -->
+
 
 
 
     <!-- Jquery 3.6.1 -->
-    <script
+    <!-- <script
         src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
     <script src="js/simple-lightbox.min.js"></script>
+    <script src="js/simple-lightbox.jquery.min.js"></script>
+    <script>
+        // $(function(){
+        //     const $gallery =$('.gallery a').simpleLightbox();
+        // })
+        // new SimpleLightbox({elements: '.gallery a'});
+        // $(document).ready(function()  {
+
+        // });
+        $('.gallery a').simpleLightbox();
+     
+    </script>
 </body>
 </html>
