@@ -5,10 +5,15 @@
 
 ## use simplelightbox to display images and videos in gallery view manner
 # https://simplelightbox.com/
+# https://dbrekalo.github.io/simpleLightbox/
+
 
 ## google font Catamaran
 ## fontawesome
 ## jquery
 
 ## what I learn
-How to display flex and grid my content whther horizontally or vertically
+How to display flex and grid my content whether horizontally or vertically
+
+
+## use media queries to make it responsive
